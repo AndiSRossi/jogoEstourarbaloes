@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(img/cenario2.jpg);
+  background-repeat: no-repeat;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+
+.balao,
+.balaoEstourado,
+.tableCronometro {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.tableCronometro {
+  background-image: url(img/cronometro.png)
+}
+
+.balao {
+  background-image: url(img/balao_azul_grande.png)
+}
+
+.balaoEstourado {
+  background-image: url(img/balao_azul_grande_estourado.png)
+}
+
+.jogo {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.13);
+  border-radius: 1rem;
+}
