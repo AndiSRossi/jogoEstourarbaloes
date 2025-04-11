@@ -87,7 +87,7 @@ function pontuacao(acao) {
 
 function situacao_jogo(baloes_inteiros) {
     if (baloes_inteiros == 0) {
-        alert("Parabéns!!! Você cosneguiu concluir o jogo.")
+        alert("Parabéns!!! Você conseguiu concluir o jogo.")
         parar_jogo()
         setTimeout(() => {
             window.location.href = "index.html";
